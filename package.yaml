@@ -1,0 +1,28 @@
+name:                vrf-hs
+version:             0.1.0.0
+github:              "sakshamsharma/vrf-hs"
+license:             BSD3
+author:              "Saksham Sharma"
+maintainer:          "saksham@acehack.org"
+copyright:           "2018 Saksham Sharma"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on Github at <https://github.com/sakshamsharma/vrf-hs#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+
+library:
+  source-dirs: src
+  extra-lib-dirs: lib
+  extra-libraries: vrf
